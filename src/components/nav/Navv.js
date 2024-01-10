@@ -7,7 +7,7 @@ const Navv = () => {
      <nav className="navbar navbar-expand-sm navbar-dark" style={{backgroundColor:"#37517e", opacity:"95%"}}>
   <div className="container-fluid">
     <h1 style={{fontSize:"30px",color:"#fff"}} className='ps-5' href="#">
-    <NavLink to="/"className="nav-link" href="#">AGENCY</NavLink>
+    <NavLink to="/Agency/"className="nav-link" href="#">AGENCY</NavLink>
     </h1>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span className="navbar-toggler-icon"></span>
