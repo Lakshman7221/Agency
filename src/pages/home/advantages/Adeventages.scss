@@ -1,0 +1,46 @@
+.AdvantageHeadline{
+    .adeventageTitle{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        justify-content: center;
+        margin:auto;
+    }
+    div{
+        .headerLine{
+            font-size:30px;
+            font-weight: bold;
+        }
+    }
+    .AdeventageCards{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        gap:10px;
+    }
+
+}
+
+@media all and (max-width:500px){
+    .AdvantageHeadline{
+        .adeventageTitle{
+            display: flex;
+            flex-direction: column;
+            width:100%;
+            justify-content: center;
+        }
+        div{
+            .headerLine{
+                font-size:30px;
+                font-weight: bold;
+            }
+        }
+        .AdeventageCards{
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            gap:10px;
+        }
+    
+    }
+}

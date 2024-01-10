@@ -1,0 +1,43 @@
+.flexBox{
+    background-color: #37517e;
+    .containerBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right:30px;
+    }
+    .headerHeading{
+        font-size:60px;
+        font-weight: bold;
+        color:white;
+    }
+    h5{
+        color:white;
+    }
+}
+
+@media all and (max-width:600px){
+    .flexBox{
+        background-color: #37517e;
+        .containerBox{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right:30px;
+            .imgView{
+                display: none;
+            }
+        }
+        .Respn{
+            text-align: center;
+            padding:50px 0px;
+        }
+        .headerHeading{
+            font-size:50px;
+            font-weight: bold;
+            text-align:center;
+            color:white;
+        }
+
+    }
+}
