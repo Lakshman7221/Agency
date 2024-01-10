@@ -13,7 +13,7 @@ const Header = () => {
         <div className='imgView'>
           <div className='p-5'>
             {/* <img src="/hero-img.png" alt="headerImage" width="450px" height="450px;" /> */}
-            <img src="https://www.networkgeek.in/dclastfinal3.png" alt="headerImage" width="450px" height="380px;" />
+            <img src="https://www.networkgeek.in/dclastfinal3.png" alt="headingImagechaged" width="450px" height="380px;" />
           </div>
         </div>
       </div>
