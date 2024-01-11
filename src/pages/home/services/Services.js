@@ -14,7 +14,7 @@ const Services = () => {
                 <p style={{opacity:"70%"}} className='text-center'>Lorem ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. <br/> Vero esse sunt quasi sapiente tenetur qui!</p>
             </div>
             <div className='AdeventageCards pb-4'>
-                <div>
+                <div className='ServiceCardBox'>
                     <div style={{width:"250px"}} className='text-center py-4'>
                     <div> <RiPagesLine size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> WEBDESIGN</h6>
@@ -22,7 +22,7 @@ const Services = () => {
                     <button className='btn btn-outline-info btn-sm'>Read More</button>
                     </div>
               </div>
-                <div>
+                <div className='ServiceCardBox'>
                     <div style={{width:"250px"}} className='text-center py-4'>
                     <div> <SiTaichigraphics size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> GRAPHIC DESIGN</h6>
@@ -30,7 +30,7 @@ const Services = () => {
                     <button className='btn btn-outline-info btn-sm'>Read More</button>
                     </div>
               </div>
-                <div>
+                <div className='ServiceCardBox'>
                     <div style={{width:"250px"}} className='text-center py-4'>
                     <div> <TbBrand4Chan size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> BRANDING</h6>
@@ -38,7 +38,7 @@ const Services = () => {
                     <button className='btn btn-outline-info btn-sm'>Read More</button>
                     </div>
               </div>
-                <div>
+                <div className='ServiceCardBox'>
                     <div style={{width:"250px"}} className='text-center py-4'>
                     <div> <SiCoinmarketcap size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> MARKETING</h6>

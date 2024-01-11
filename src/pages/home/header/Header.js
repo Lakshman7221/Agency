@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Header.scss"
+import { FaArrowRight } from "react-icons/fa6";
 import img1 from "../../../img/hero-img.png"
 const Header = () => {
 const onlineUrl = "https://www.networkgeek.in/dclastfinal3.png"
@@ -11,7 +12,7 @@ const onlineUrl = "https://www.networkgeek.in/dclastfinal3.png"
         <div className='Respn'>
           <div className='headerHeading pb-2'>WE ARE EXPERTS</div>
           <div className='pb-3 lead text-light'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In hic recusandae nesciunt quis labore unde!</div>
-          <button className='btn btn-warning btn-lg mb-3'> Read More</button>
+          <div className='readMore mb-3'> READ MORE &nbsp; &nbsp;<FaArrowRight size={25}/></div>
         </div>
         <div className='imgView'>
           <div className='p-5'>
