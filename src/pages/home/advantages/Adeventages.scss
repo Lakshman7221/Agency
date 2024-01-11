@@ -1,5 +1,6 @@
 .AdvantageHeadline{
-    margin: 30px 0;
+    padding: 30px 0;
+    background-color: #dce5f5;
     .adeventageTitle{
         display: flex;
         flex-direction: column;
@@ -18,9 +19,9 @@
         flex-wrap:wrap;
         justify-content: center;
         gap:10px;
+        padding:0 20px;
         .cardBox{
-            background-color:#f1f1f1;
-            opacity:80%;
+            background-color:#fff;
             width:230px;
             transition: all 0.5s ease;
             &:hover{
@@ -51,7 +52,17 @@
             display: flex;
             flex-wrap:wrap;
             justify-content: center;
-            gap:10px;
+            .cardBox{
+                background-color:#fff;
+                width:100%;
+                transition: all 0.5s ease;
+                &:hover{
+                    background-color:#a9bde0;;
+                    cursor: pointer;
+                    border-radius: 30px;
+                }
+            }
+
         }
     
     }

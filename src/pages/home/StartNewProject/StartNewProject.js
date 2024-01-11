@@ -2,7 +2,7 @@ import React from 'react'
 import "./StartNewProject.scss"
 const StartNewProject = () => {
   return (
-    <div className='newProject container py-5'>
+    <div className='newProject container'>
         <div className='text-center'>
             <h1><span style={{opacity:"70%"}}>START YOUR</span> <b>NEW PROJECT</b></h1>
             <div style={{opacity:"70%"}}>Lorem ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. Vero esse sunt quasi sapiente tenetur qui!</div>
