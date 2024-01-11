@@ -1,28 +1,55 @@
 .mainNav{
-
+    background-color:#37517e;
+    opacity:95%;
+    width: 100%;
+    h1{
+        font-size: 30px;
+        color:#fff;
+        opacity: 80%;
+        padding-left: 30px;
+    }
+    .container-fluid .pagesNames div{
+        display: flex;
+        justify-content: end;
+        margin-right:30px;
+        width:100%;
+        float: right;
+    }
+    .container-fluid .pagesNames ul li a{
+        color:#fff;
+        opacity: 65%;
+        font-weight: 400;
+        font-size: 15px;
+        &:hover{
+            text-decoration: underline;
+            opacity: 100%;
+        }
+    } 
     .NavLinkClass{
         background-color: #37517e;
         display: flex;
         align-items:center ;
         justify-content:space-between;
-        padding: 5px 50px;
+        padding: 5px 30px;
     
         .logo{
             font-weight: bold;
             font-size:30px;
             color:#fff;
         }
-        
-        a{
-            text-decoration: none;
-            color:white;
-            font-size:13px;
-            padding:0 7px;
-            font-weight: 400;
-            &:hover{
-                color:orange;    
+    }
+}
+
+
+
+@media all and (max-width: 600px){
+    .mainNav{
+        .container-fluid .pagesNames div{
+            display: flex;
+            justify-content: start;
+            margin-left:30px;
+            width:100%;
+            float: left;
         }
-        }
-    
     }
 }
