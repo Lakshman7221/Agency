@@ -10,9 +10,9 @@ const Adventages = () => {
   return (
     <>
         <div className='AdvantageHeadline'>
-            <div className='py-3 adeventageTitle'>
-                <div className='headerLine text-center' style={{color:"#37517e"}}>OUR <span>ADVENTAGES</span></div> 
-            <p style={{opacity:"70%"}} className='text-center'>Lorem ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. Vero esse sunt quasi sapiente tenetur qui!</p>
+            <div className='adeventageTitle'>
+              <div className='headerLine' >OUR <span>ADVENTAGES</span></div> 
+              <p>Lorem ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. Vero esse sunt quasi sapiente tenetur qui!</p>
             </div>
             <div className='AdeventageCards pb-4'>
                 <div className="cardBox">

@@ -8,12 +8,12 @@ import "./Services.scss"
 const Services = () => {
   return (
     <>
-        <div className='AdvantageHeadline'>
+        <div className='ServiceHeadline'>
             <div className='py-3 adeventageTitle py-4'>
-                <div className='headerLine text-center' style={{color:"#37517e"}}>OUR <span>SERVICES</span></div>
-                <p style={{opacity:"70%"}} className='text-center'>Lorem ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. <br/> Vero esse sunt quasi sapiente tenetur qui!</p>
+                <div className='headerLine' >OUR <span>SERVICES</span></div>
+                <p className='para text-center'>Lorem ipsum dolor sit amet consectetur sit amet consectetur adipisicing elit. Vero esse sunt quasi sapiente tenetur qui!</p>
             </div>
-            <div className='AdeventageCards pb-2'>
+            <div className='AdeventageCards'>
                 <div className='ServiceCardBox'>
                     <div style={{width:"250px"}} className='text-center py-4'>
                     <div> <RiPagesLine size={50} color="#37517e"/> </div>

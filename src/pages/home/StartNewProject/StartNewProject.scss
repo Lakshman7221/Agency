@@ -1,6 +1,12 @@
 .newProject{
     padding:50px 70px;
     background-color: #fff;
+    .title{
+        .para{
+            width:60%;
+            margin:auto;
+        }
+    }
     .inputSection{
         display: flex;
         input[type="text"]{
@@ -28,6 +34,12 @@
 
 @media all and (max-width:600px){
     .newProject{
+        padding:50px 30px;
+        .title{
+            .para{
+                width:100%;
+            }
+        }
         .inputSection{
             display: flex;
             flex-direction: column;
