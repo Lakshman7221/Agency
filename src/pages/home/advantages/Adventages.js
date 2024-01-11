@@ -51,11 +51,10 @@ const Adventages = () => {
                     </div>
               </div>
             </div>
-
-            <div style={{backgroundColor:"#f1f1f1"}}>
+        </div>
+        <div style={{backgroundColor:"#f1f1f1"}}>
                 <StartNewProject/>
             </div>
-        </div>
     </>
   )
 }
