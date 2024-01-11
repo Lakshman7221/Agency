@@ -11,8 +11,8 @@ const onlineUrl = "https://www.networkgeek.in/dclastfinal3.png"
         <div className='container containerBox'>
         <div className='Respn'>
           <div className='headerHeading pb-2'>WE ARE EXPERTS</div>
-          <div className='pb-3 lead text-light'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In hic recusandae nesciunt quis labore unde!</div>
-          <div className='readMore mb-3'> READ MORE &nbsp; &nbsp;<FaArrowRight size={25}/></div>
+          <div className='para'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In hic recusandae nesciunt quis labore unde!</div>
+          <div className='readMore'> READ MORE &nbsp; &nbsp;<FaArrowRight size={25}/></div>
         </div>
         <div className='imgView'>
           <div className='p-5'>

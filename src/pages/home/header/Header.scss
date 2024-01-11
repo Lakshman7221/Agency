@@ -6,6 +6,11 @@
         align-items: center;
         padding-right:30px;
         .Respn{
+            .para{
+                padding-bottom: 20px;
+                color:#fff;
+                font-size: 20px;
+            }
             .readMore{
                 background-color: #142441;
                 padding:16px 5px;
@@ -39,21 +44,20 @@
         background-color: #37517e;
         padding: 50px 15px;
         .containerBox{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-right:30px;
+
             .Respn{
+                .para{
+                    text-align: center;
+                    padding-bottom: 30px;
+                    color:#fff;
+                    font-size: 17px;
+                }
                 .readMore{
                     background-color: #142441;
-                    padding:15px 30px;
-                    margin-top:10px;
-                    color:white;
-                    width:100%;
-                    text-align: center;
-                    font-size:16px;
+                    // padding:30x 30px;
+                    margin:auto;
+                    width:60%;
                     transition: all 0.5s ease;
-                    border-radius: 5px;
                     &:hover{
                         background-color: #7893c0;
                         color:black;
@@ -68,10 +72,10 @@
             
         }
         .headerHeading{
-            font-size:50px;
-            font-weight: bold;
+            font-size:45px;
             text-align:center;
             color:white;
+            font-weight: lighter;
         }
 
     }
