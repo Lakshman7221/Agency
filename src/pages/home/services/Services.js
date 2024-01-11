@@ -19,7 +19,7 @@ const Services = () => {
                     <div> <RiPagesLine size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> WEBDESIGN</h6>
                     <div style={{fontSize:"13px", padding:"15px"}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error amet quae provident distinctio. Magni.</div>
-                    <button className='btn btn-outline-info btn-sm'>Read More</button>
+                    <div className='serviceBtn btn-sm'>READ MORE</div>
                     </div>
               </div>
                 <div className='ServiceCardBox'>
@@ -27,7 +27,7 @@ const Services = () => {
                     <div> <SiTaichigraphics size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> GRAPHIC DESIGN</h6>
                     <div style={{fontSize:"13px", padding:"15px"}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error amet quae provident distinctio. Magni.</div>
-                    <button className='btn btn-outline-info btn-sm'>Read More</button>
+                    <div className='serviceBtn btn-sm'>READ MORE</div>
                     </div>
               </div>
                 <div className='ServiceCardBox'>
@@ -35,7 +35,7 @@ const Services = () => {
                     <div> <TbBrand4Chan size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> BRANDING</h6>
                     <div style={{fontSize:"13px", padding:"15px"}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error amet quae provident distinctio. Magni.</div>
-                    <button className='btn btn-outline-info btn-sm'>Read More</button>
+                    <div className='serviceBtn btn-sm'>READ MORE</div>
                     </div>
               </div>
                 <div className='ServiceCardBox'>
@@ -43,7 +43,7 @@ const Services = () => {
                     <div> <SiCoinmarketcap size={50} color="#37517e"/> </div>
                     <h6 className='pt-3' style={{fontWeight:"bold"}}> MARKETING</h6>
                     <div style={{fontSize:"13px", padding:"15px"}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error amet quae provident distinctio. Magni.</div>
-                    <button className='btn btn-outline-info btn-sm'>Read More</button>
+                    <div className='serviceBtn btn-sm'>READ MORE</div>
                     </div>
               </div>
             </div>
