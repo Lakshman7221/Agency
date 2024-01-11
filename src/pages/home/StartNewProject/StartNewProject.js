@@ -12,7 +12,7 @@ const StartNewProject = () => {
             <input type="text" className='form-control gap-1' placeholder='Full Name'/>
             <input type="text" className='form-control' placeholder='Email'/>
             <input type="text" className='form-control' placeholder='Phone Number'/>
-            <button className='btn btn-info w-100'>SEND</button>
+            <div className='submit w-100'>SEND</div>
         </div>
     </div>
   )
