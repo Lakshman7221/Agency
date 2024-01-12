@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <div>
-        <div className='container py-4'>
+        <div className='container' style={{paddingTop:"100px"}}>
     <h1>SERVICES</h1>
     <p>dicta eum isquam eligendi, non excepturi iste nam a dolorem nostrum, numquam et? Minima ullam ratione est corrupti id quae ad, magnam molestiae tenetur doloremque. Placeat, nobis velit.
     Non explicabo eligendi beatae sequi, reiciendis ab earum odio aperiam, ut provident tempora deleniti voluptate veniam laboriosam expedita. Accusantium illo sapiente quis nihil deleniti nulla eveniet assumenda nobis fugiat facilis.

@@ -1,10 +1,14 @@
 .flexBox{
+    position:relative;
+    top:60px;
     background-color: #37517e;
-    padding:30px 100px; 
+    padding:0px 100px;
+    // height:100vh; 
     .containerBox{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        height: 90vh;
         .Respn{
             .para{
                 padding-bottom: 20px;
@@ -55,7 +59,7 @@
         background-color: #37517e;
         padding: 30px 30px;
         .containerBox{
-
+            height: auto;
             .Respn{
                 .para{
                     text-align: center;

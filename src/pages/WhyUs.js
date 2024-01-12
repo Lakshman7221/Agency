@@ -3,7 +3,7 @@ import React from 'react'
 const WhyUs = () => {
   return (
     <div>
-        <div className='container py-4'>
+        <div className='container' style={{paddingTop:"100px"}}>
     <h1>WHY US</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellendus, quidem doloribus nisi aspernatur aliquam veritatis excepturi sapiente pariatur, laboriosam corrupti accusamus est, rem ipsa. Necessitatibus facere veritatis assumenda corrupti?
     Et dicta eum isquam eligendi, non excepturi iste nam a dolorem nostrum, numquam et? Minima ullam ratione est corrupti id quae ad, magnam molestiae tenetur doloremque. Placeat, nobis velit.

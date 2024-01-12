@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 const Navv = () => {
   return (
-    <div>
+    <div className="fixedNav">
       <nav className="mainNav navbar navbar-expand-sm">
         <div className="container-fluid">
           <h1>

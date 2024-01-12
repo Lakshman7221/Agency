@@ -2,7 +2,7 @@ import React from 'react'
 
 const Process = () => {
   return (
-    <div className='container py-4'>
+    <div className='container' style={{paddingTop:"100px"}}>
         <h1>PROCESS</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repellendus, quidem doloribus nisi aspernatur aliquam veritatis excepturi sapiente pariatur, laboriosam corrupti accusamus est, rem ipsa. Necessitatibus facere veritatis assumenda corrupti?
         Et dicta eum impedit, ea atque iusto omnis inventore aliquid neque, pariatur quos. Maiores fugit provident cum ratione architecto, officia odit rerum pariatur earum repellendus aut consequatur unde id accusantium.
